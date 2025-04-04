@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reapers</title>
+    <style>
+        /* Styl dla kontenera */
+        body {
+            display: flex;
+            flex-direction: column; /* Ustawienie elementów w kolumnie */
+            justify-content: center; /* Wycentrowanie w poziomie */
+            align-items: center; /* Wycentrowanie w pionie */
+            height: 100vh; /* Wysokość widoku */
+            margin: 0; /* Usunięcie marginesu */
+            color: #fff; /* Biały tekst */
+            font-family: 'Arial', sans-serif; /* Czcionka */
+            background: url('https://static.wikia.nocookie.net/villains/images/e/ec/The_Reapers_MELE.png/revision/latest?cb=20241227050724') no-repeat center center fixed; /* Tło obrazem */
+            background-size: cover; /* Pokrycie całej strony */
+        }
+
+        /* Styl dla tytułu */
+        h1 {
+            margin-bottom: 30px; /* Przestrzeń między tytułem a odtwarzaczem */
+            text-align: center;
+            font-size: 36px;
+            color: #00bfff; /* Jasny, niebieski kolor */
+            text-shadow: 0 0 15px rgba(0, 191, 255, 0.7); /* Efekt świetlny */
+        }
+
+        /* Styl dla iframe (odtwarzacza) */
+        iframe {
+            width: 80%; /* Ustawienie szerokości na 80% szerokości okna */
+            height: 80%; /* Ustawienie wysokości na 80% wysokości okna */
+            border: 3px solid #00bfff; /* Obramowanie w kolorze niebieskim */
+            box-shadow: 0 0 20px rgba(0, 191, 255, 0.6); /* Efekt świetlny na odtwarzaczu */
+        }
+    </style>
+</head>
+<body>
+    <!-- Tytuł nad odtwarzaczem -->
+    <h1>REAPERS REAPERS REAPERS REAPERS REAPERS REAPERS REAPERS REAPERS</H1>
+
+    <!-- Osadzanie filmu YouTube z autoplay i mute -->
+    <iframe id="youtube-player" 
+            src="https://www.youtube.com/embed/d19hW16BBow?autoplay=1&mute=1" 
+            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+    </iframe>
+</body>
+</html>
